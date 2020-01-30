@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio Circunferencia", "C Sharp Basico\Radio Circunferencia.csproj", "{5A2D86C0-767F-4F79-8872-BE6AEFC95195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C Sharp Basico", "C Sharp Basico", "{5857290E-DC98-4049-A788-C14C22049BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operadores y Condicionales", "Operadores y Condicionales", "{80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcular IMC", "Calcular IMC\Calcular IMC.csproj", "{81D57D59-FE72-41F1-839B-FBC202EEFDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A2D86C0-767F-4F79-8872-BE6AEFC95195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2D86C0-767F-4F79-8872-BE6AEFC95195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2D86C0-767F-4F79-8872-BE6AEFC95195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2D86C0-767F-4F79-8872-BE6AEFC95195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D57D59-FE72-41F1-839B-FBC202EEFDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D57D59-FE72-41F1-839B-FBC202EEFDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D57D59-FE72-41F1-839B-FBC202EEFDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D57D59-FE72-41F1-839B-FBC202EEFDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A2D86C0-767F-4F79-8872-BE6AEFC95195} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
+		{80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8} = {5857290E-DC98-4049-A788-C14C22049BCF}
+		{81D57D59-FE72-41F1-839B-FBC202EEFDBB} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {638C38B2-1B2E-43AF-AFC3-1FA245C35F6E}
+	EndGlobalSection
+EndGlobal
