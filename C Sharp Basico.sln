@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C Sharp Basico", "C Sharp B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operadores y Condicionales", "Operadores y Condicionales", "{80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcular IMC", "Calcular IMC\Calcular IMC.csproj", "{81D57D59-FE72-41F1-839B-FBC202EEFDBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcular IMC", "Operadores y Condicionales\Calcular IMC\Calcular IMC.csproj", "{81D57D59-FE72-41F1-839B-FBC202EEFDBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio Circunferencia", "Radio Circunferencia\Radio Circunferencia.csproj", "{21E5B33C-FDE4-459B-A8DB-C7F5223C0591}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio Circunferencia", "Operadores y Condicionales\Radio Circunferencia\Radio Circunferencia.csproj", "{21E5B33C-FDE4-459B-A8DB-C7F5223C0591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
