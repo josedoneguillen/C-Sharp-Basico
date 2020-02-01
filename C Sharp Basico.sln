@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calcular IMC", "Operadores 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio Circunferencia", "Operadores y Condicionales\Radio Circunferencia\Radio Circunferencia.csproj", "{21E5B33C-FDE4-459B-A8DB-C7F5223C0591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signo Zodiacal", "Operadores y Condicionales\Signo Zodiacal\Signo Zodiacal.csproj", "{6FA1F34D-32A4-46A2-B462-01C8CE036602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Signo Zodiacal", "Operadores y Condicionales\Signo Zodiacal\Signo Zodiacal.csproj", "{6FA1F34D-32A4-46A2-B462-01C8CE036602}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecuaciones de 2do Grado", "Operadores y Condicionales\Ecuaciones de 2do Grado\Ecuaciones de 2do Grado.csproj", "{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecuaciones de 2do Grado", "Operadores y Condicionales\Ecuaciones de 2do Grado\Ecuaciones de 2do Grado.csproj", "{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora Basica", "Calculadora Basica\Calculadora Basica.csproj", "{3FFEE447-C2A7-4BC3-A833-8C30F742314B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFEE447-C2A7-4BC3-A833-8C30F742314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFEE447-C2A7-4BC3-A833-8C30F742314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFEE447-C2A7-4BC3-A833-8C30F742314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFEE447-C2A7-4BC3-A833-8C30F742314B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{21E5B33C-FDE4-459B-A8DB-C7F5223C0591} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
 		{6FA1F34D-32A4-46A2-B462-01C8CE036602} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
 		{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
+		{3FFEE447-C2A7-4BC3-A833-8C30F742314B} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {638C38B2-1B2E-43AF-AFC3-1FA245C35F6E}
