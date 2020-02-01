@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Signo Zodiacal", "Operadore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecuaciones de 2do Grado", "Operadores y Condicionales\Ecuaciones de 2do Grado\Ecuaciones de 2do Grado.csproj", "{3B3966AD-2308-4969-9BAE-C5AC6F3B1B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora Basica", "Calculadora Basica\Calculadora Basica.csproj", "{3FFEE447-C2A7-4BC3-A833-8C30F742314B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora Basica", "Operadores y Condicionales\Calculadora Basica\Calculadora Basica.csproj", "{3FFEE447-C2A7-4BC3-A833-8C30F742314B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
