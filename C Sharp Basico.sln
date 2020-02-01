@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversiones de Moneda", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analizador de Generacion", "Operadores y Condicionales\Analizador de Generacion\Analizador de Generacion.csproj", "{D45CEFAC-D64A-4394-87AA-E7A4F6AFC7DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hipotenusa de un Triangulo", "Operadores y Condicionales\Hipotenusa de un Triangulo\Hipotenusa de un Triangulo.csproj", "{C1A31521-04C6-4B08-84D8-F8CF117274CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{D45CEFAC-D64A-4394-87AA-E7A4F6AFC7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45CEFAC-D64A-4394-87AA-E7A4F6AFC7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45CEFAC-D64A-4394-87AA-E7A4F6AFC7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A31521-04C6-4B08-84D8-F8CF117274CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A31521-04C6-4B08-84D8-F8CF117274CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A31521-04C6-4B08-84D8-F8CF117274CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A31521-04C6-4B08-84D8-F8CF117274CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{79B07844-FBBB-443C-8516-C080DFE581F3} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
 		{B5390949-AAB0-4ED3-AB5A-C9DECB83E790} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
 		{D45CEFAC-D64A-4394-87AA-E7A4F6AFC7DE} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
+		{C1A31521-04C6-4B08-84D8-F8CF117274CA} = {80A55E4C-DEEC-4A0E-8CA8-1DF82597D5D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {638C38B2-1B2E-43AF-AFC3-1FA245C35F6E}
