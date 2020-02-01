@@ -60,7 +60,6 @@ namespace Calcular_promedio_nota
             }
 
             //Imprimir resultado en pantalla
-
             if (literal == 'F')
             {
                 Console.WriteLine("REPROBADO");
