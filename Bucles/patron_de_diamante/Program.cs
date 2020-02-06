@@ -11,7 +11,7 @@ namespace patron_de_diamante
 
             /* Declaracion de variables */
             int size;
-            int count=1;
+             int count=1;
 
             /* Solicitar al usuario cantidad de lineas */
             Console.WriteLine("Ingrese un numero");
