@@ -25,6 +25,7 @@ namespace patron_de_diamante
                 {
                     Console.Write("  "); 
                 }
+
                 /* Tercer ciclo para imprimir asterisco mas un espacio a su derecha */
                 for(int k=1;k<=count*2-1;k++)
                 {
@@ -43,6 +44,9 @@ namespace patron_de_diamante
                     Console.Write(Environment.NewLine); 
                 }
             }
+
+            /* Esperar letra para cerrar */
+            Console.ReadKey();
         }
     }
 }
