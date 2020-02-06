@@ -31,7 +31,7 @@ namespace patron_de_diamante
                     Console.Write("* ");
                 }
                 
-                /* Condicional que decide si es la primera la parte superior o inverior del diamante para retroceder el contador e imprimir una nueva linea en ambos casos*/
+                /* Condicional que decide si es la parte superior o inferior del diamante para retroceder el contador e imprimir una nueva linea en ambos casos*/
                 if(i<size)
                 {
                     count++;
