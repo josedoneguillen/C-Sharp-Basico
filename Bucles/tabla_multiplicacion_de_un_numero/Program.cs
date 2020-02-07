@@ -18,10 +18,10 @@ namespace tabla_multiplicacion_de_un_numero
             Console.WriteLine("Ingrese un numero para ver su tabla de multiplicacion:");
             n = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-            /* Ciclo while para contar hasta el numero ingresado por el usuario */
+            /* Ciclo while para multiplicar numero ingresado por el usuario hasta el 12 */
             for (int i = 1; i <= 12; i++)
             {
-                /* Imprimir el valor actual de n en cada iteracion */
+                /* Imprimir el valor actual de i multiplicado por n en cada iteracion */
                 Console.WriteLine(i + " x " + n + " = " + (i*n));
             }
 
