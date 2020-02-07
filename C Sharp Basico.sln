@@ -31,15 +31,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "patron_de_diamante", "Bucle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numeros_impares", "Bucles\numeros_impares\numeros_impares.csproj", "{A92F7641-E5BC-4EB0-B6DE-9DF384F9809A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuenta_regresiva", "Bucles\cuenta_regresiva\cuenta_regresiva.csproj", "{9BCBB395-6B81-41EB-B4B6-826293425205}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cuenta_regresiva", "Bucles\cuenta_regresiva\cuenta_regresiva.csproj", "{9BCBB395-6B81-41EB-B4B6-826293425205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tabla_multiplicacion_de_un_numero", "Bucles\tabla_multiplicacion_de_un_numero\tabla_multiplicacion_de_un_numero.csproj", "{C165D1E0-EB90-4FD7-AE2D-0965EECBAC8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tabla_multiplicacion_de_un_numero", "Bucles\tabla_multiplicacion_de_un_numero\tabla_multiplicacion_de_un_numero.csproj", "{C165D1E0-EB90-4FD7-AE2D-0965EECBAC8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumatoria_de_numeros_impares", "Bucles\sumatoria_de_numeros_impares\sumatoria_de_numeros_impares.csproj", "{FE3952EE-DF11-418A-B44D-3E5C0CFD9233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sumatoria_de_numeros_impares", "Bucles\sumatoria_de_numeros_impares\sumatoria_de_numeros_impares.csproj", "{FE3952EE-DF11-418A-B44D-3E5C0CFD9233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numeros_de_armstrong", "Bucles\numeros_de_armstrong\numeros_de_armstrong.csproj", "{3D1E0485-15A7-4496-86AC-E1C2B0B33D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numeros_de_armstrong", "Bucles\numeros_de_armstrong\numeros_de_armstrong.csproj", "{3D1E0485-15A7-4496-86AC-E1C2B0B33D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "terminos_de_fibonacci", "Bucles\terminos_de_fibonacci\terminos_de_fibonacci.csproj", "{32942825-2834-43C7-AB63-CBAA92F80B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "terminos_de_fibonacci", "Bucles\terminos_de_fibonacci\terminos_de_fibonacci.csproj", "{32942825-2834-43C7-AB63-CBAA92F80B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ciclo_para_sumar", "Bucles\ciclo_para_sumar\ciclo_para_sumar.csproj", "{4156938F-2F0B-4B92-A9D3-714154DAE8C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{32942825-2834-43C7-AB63-CBAA92F80B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32942825-2834-43C7-AB63-CBAA92F80B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32942825-2834-43C7-AB63-CBAA92F80B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4156938F-2F0B-4B92-A9D3-714154DAE8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4156938F-2F0B-4B92-A9D3-714154DAE8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4156938F-2F0B-4B92-A9D3-714154DAE8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4156938F-2F0B-4B92-A9D3-714154DAE8C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +140,7 @@ Global
 		{FE3952EE-DF11-418A-B44D-3E5C0CFD9233} = {9D5A611C-75C4-4873-8318-A01F6806340F}
 		{3D1E0485-15A7-4496-86AC-E1C2B0B33D2C} = {9D5A611C-75C4-4873-8318-A01F6806340F}
 		{32942825-2834-43C7-AB63-CBAA92F80B68} = {9D5A611C-75C4-4873-8318-A01F6806340F}
+		{4156938F-2F0B-4B92-A9D3-714154DAE8C9} = {9D5A611C-75C4-4873-8318-A01F6806340F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {638C38B2-1B2E-43AF-AFC3-1FA245C35F6E}
