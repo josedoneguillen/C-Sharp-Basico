@@ -65,6 +65,7 @@ namespace sumatoria_de_numero_pares_impares_y_primos
             Console.WriteLine("Total de numeros pares: " + pares);
             Console.WriteLine("Total de numeros impares: " + impares);
             Console.WriteLine("Total de numeros primos: " + (primos-1));
+            Console.WriteLine("Total: " + (pares + impares + (primos-1)));
 
             /* Esperar letra para cerrar */
             Console.WriteLine("Pulse una tecla para cerrar el programa.");
