@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ciclo_para_sumar", "Bucles\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revertir_numero_entero", "Bucles\revertir_numero_entero\revertir_numero_entero.csproj", "{87D91988-AF5C-46BC-AE3F-3D7D3E34E2DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "palindromas", "Bucles\palindromas\palindromas.csproj", "{74C102BC-574B-489F-819F-3DA1270B4F89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{87D91988-AF5C-46BC-AE3F-3D7D3E34E2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87D91988-AF5C-46BC-AE3F-3D7D3E34E2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87D91988-AF5C-46BC-AE3F-3D7D3E34E2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C102BC-574B-489F-819F-3DA1270B4F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C102BC-574B-489F-819F-3DA1270B4F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C102BC-574B-489F-819F-3DA1270B4F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C102BC-574B-489F-819F-3DA1270B4F89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -148,6 +154,7 @@ Global
 		{32942825-2834-43C7-AB63-CBAA92F80B68} = {9D5A611C-75C4-4873-8318-A01F6806340F}
 		{4156938F-2F0B-4B92-A9D3-714154DAE8C9} = {9D5A611C-75C4-4873-8318-A01F6806340F}
 		{87D91988-AF5C-46BC-AE3F-3D7D3E34E2DD} = {9D5A611C-75C4-4873-8318-A01F6806340F}
+		{74C102BC-574B-489F-819F-3DA1270B4F89} = {9D5A611C-75C4-4873-8318-A01F6806340F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {638C38B2-1B2E-43AF-AFC3-1FA245C35F6E}
