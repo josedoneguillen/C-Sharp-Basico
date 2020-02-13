@@ -24,7 +24,7 @@ namespace adivina_el_numero
             byte seguir_jugando = 1;
             bool gano = false;
 
-            /* Ciclo do while para iniciar el juego por primera ves mientras el usuario no use los 5 intentos y quiera seguir jugando */
+            /* Ciclo do while para iniciar el juego por primera ves mientras el usuario no use los intentos y quiera seguir jugando */
             do
             {
                 /* Limpiar la consola en cada iteracion para mantener una buena legibilidad */
