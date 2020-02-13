@@ -7,7 +7,7 @@ namespace adivina_el_numero
         static void Main(string[] args)
         {
             /*
-             * 3.	Realiza una aplicación que genere un número random del 1-100 y que luego el usuario deba adivinar cuál es número que se generó, 
+             * 3. Realiza una aplicación que genere un número random del 1-100 y que luego el usuario deba adivinar cuál es número que se generó, 
              * el mismo solo tendrá 10 oportunidades para adivinar al agotar las 10 oportunidades debe mostrarse cuál era el número y preguntarle si quiere volver a jugar si quiere seguir 
              * se debe generar un nuevo número random de no querer seguir jugando debe finalizar la aplicación.
              * La aplicación debe de darle pista al usuario según qué tan cerca este si está a menos o a 5 números debe decirle que está muy caliente, 
@@ -27,11 +27,11 @@ namespace adivina_el_numero
             /* Ciclo do while para iniciar el juego por primera ves mientras el usuario no use los intentos y quiera seguir jugando */
             do
             {
-                /* Limpiar intentos */
-                intentos = 0;
-
                 /* Limpiar la consola en cada iteracion para mantener una buena legibilidad */
                 Console.Clear();
+
+                /* Limpiar intentos */
+                intentos = 0;
 
                 /* Mostrar mensaje al usuario sobre la tematica del juego */
                 Console.WriteLine("Adivina el numero entre 1 y 100 para Ganar!!!");
