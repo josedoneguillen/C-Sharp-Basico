@@ -27,6 +27,9 @@ namespace adivina_el_numero
             /* Ciclo do while para iniciar el juego por primera ves mientras el usuario no use los intentos y quiera seguir jugando */
             do
             {
+                /* Limpiar intentos */
+                intentos = 0;
+
                 /* Limpiar la consola en cada iteracion para mantener una buena legibilidad */
                 Console.Clear();
 
