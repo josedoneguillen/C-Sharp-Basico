@@ -30,22 +30,95 @@ namespace ItlaMarket
         /* Declaracion de estructura de facturas */
         public struct factura
         {
-            public string idCliente { get; set; }
+            public int idCliente { get; set; }
             public List<int> productos { get; set; }
             public double subTotal { get; set; }
-            public int Total { get; set; }
+            public double impuestos { get; set; }
+            public double Total { get; set; }
         }
 
         static void Main(string[] args)
         {
+            /* Declaracion de variables */
+            int opcion;
+            
+            /* Declarando e inicializando lista de inventario para almacenar productos */
             List<producto> inventario = new List<producto>();
-            inventario.Add(new producto { nombre = "Aguacate", precio = 25.00, cantidad = 12});
-            inventario.Add(new producto { nombre = "Manzana", precio = 30.00, cantidad = 24});
+            /* Declarando e inicializando lista de clientes */
+            List<string> clientes = new List<string>();
 
-            foreach (producto unidad in inventario) 
+            //Llamando metodo para mostrar el menu principal
+            menuPrincipal();
+
+            /* Almacenar opcion */
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            /* Sentencia switch para evaluar la opcion escogida por el usuario */
+            switch (opcion) 
             {
-                Console.WriteLine(unidad.nombre);
+                /* Clientes */
+                case 1:
+
+                    menuClientes();
+
+                    break;
+
+                /* Productos */
+                case 2:
+
+                    break;
+
+                /* Facturas de venta */
+                case 3:
+
+                    break;
+
+                /* Salir */
+                case 4:
+
+                    break;
+
+                /* Defecto */
+                default:
+                    Console.WriteLine("La opcion elegida no existe!");
+                    break;
             }
+
+            //inventario.Add(new producto { nombre = "Aguacate", precio = 25.00, cantidad = 12});
+
+            /* foreach (producto unidad in inventario) 
+             {
+                 Console.WriteLine(unidad.nombre);
+             }*/
+
+
+
+
+
+        }
+
+        /* Metodo para imprimir el menu principal */
+        public static void menuPrincipal() 
+        {
+            Console.Clear();
+            Console.WriteLine("Punto de venta - Menu principal");
+            Console.WriteLine("1- Clientes");
+            Console.WriteLine("2- Productos");
+            Console.WriteLine("3- Facturas de venta");
+            Console.WriteLine("4- Salir");
+
+        }
+
+        /* Metodo para imprimir el menu de clientes */
+        public static void menuClientes()
+        {
+            Console.Clear();
+            Console.WriteLine("Punto de venta - Clientes");
+            Console.WriteLine("1- Agregar Cliente");
+            Console.WriteLine("2- Editar Cliente");
+            Console.WriteLine("3- Borrar Cliente");
+            Console.WriteLine("4- Listar Clientes");
+            Console.WriteLine("5- Atras");
 
         }
     }
