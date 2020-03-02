@@ -37,52 +37,20 @@ namespace ItlaMarket
             public double Total { get; set; }
         }
 
+        /* Declarando e inicializando lista estatica de inventario para almacenar productos */
+        public static List<producto> inventario = new List<producto>();
+
+        /* Declarando e inicializando lista estatica de clientes */
+        public static List<string> clientes = new List<string>();
+
         static void Main(string[] args)
-        {
-            /* Declaracion de variables */
-            int opcion;
-            
-            /* Declarando e inicializando lista de inventario para almacenar productos */
-            List<producto> inventario = new List<producto>();
-            /* Declarando e inicializando lista de clientes */
-            List<string> clientes = new List<string>();
+        {   
 
             //Llamando metodo para mostrar el menu principal
-            menuPrincipal();
+                menuPrincipal();
+            
 
-            /* Almacenar opcion */
-            opcion = Convert.ToInt32(Console.ReadLine());
-
-            /* Sentencia switch para evaluar la opcion escogida por el usuario */
-            switch (opcion) 
-            {
-                /* Clientes */
-                case 1:
-
-                    menuClientes();
-
-                    break;
-
-                /* Productos */
-                case 2:
-
-                    break;
-
-                /* Facturas de venta */
-                case 3:
-
-                    break;
-
-                /* Salir */
-                case 4:
-
-                    break;
-
-                /* Defecto */
-                default:
-                    Console.WriteLine("La opcion elegida no existe!");
-                    break;
-            }
+            
 
             //inventario.Add(new producto { nombre = "Aguacate", precio = 25.00, cantidad = 12});
 
@@ -107,6 +75,46 @@ namespace ItlaMarket
             Console.WriteLine("3- Facturas de venta");
             Console.WriteLine("4- Salir");
 
+            //Declaracion de variable opcion
+            int opcion;
+
+            //Solicitar al usuario una opcion
+            Console.WriteLine("Ingrese una de las opciones:");
+
+            /* Almacenar opcion */
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            /* Sentencia switch para evaluar la opcion escogida por el usuario */
+            switch (opcion)
+            {
+                /* Clientes */
+                case 1:
+
+                    menuClientes();
+
+                    break;
+
+                /* Productos */
+                case 2:
+
+                    break;
+
+                /* Facturas de venta */
+                case 3:
+
+                    break;
+
+                /* Salir */
+                case 4:
+                    Console.WriteLine("Salir");
+                    break;
+
+                /* Defecto */
+                default:
+                    Console.WriteLine("La opcion elegida no existe!");
+                    break;
+            }
+
         }
 
         /* Metodo para imprimir el menu de clientes */
@@ -120,6 +128,150 @@ namespace ItlaMarket
             Console.WriteLine("4- Listar Clientes");
             Console.WriteLine("5- Atras");
 
+            //Declaracion de variable opcion
+            int opcion;
+
+            //Solicitar al usuario una opcion
+            Console.WriteLine("Ingrese una de las opciones:");
+
+            /* Almacenar opcion */
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            /* Sentencia switch para evaluar la opcion escogida por el usuario */
+            switch (opcion)
+            {
+                /* Agregar Cliente */
+                case 1:
+
+                    agregarCliente();
+
+                    break;
+
+                /* Editar Cliente */
+                case 2:
+                    editarCliente();
+                    break;
+
+                /* Borrar Cliente */
+                case 3:
+
+                    break;
+
+                /* Listar Clientes */
+                case 4:
+                    listarClientes();
+                    break;
+
+                /* Atras */
+                case 5:
+                    menuPrincipal();
+                    break;
+
+                /* Defecto */
+                default:
+                    Console.WriteLine("La opcion elegida no existe!");
+                    break;
+            }
+
+           
+
+
         }
+
+        /* Metodo para agregar clientes */
+        public static void agregarCliente() 
+        {
+            Console.Clear();
+
+            /* Solicitar al usuario el nombre del nuevo cliente */
+            Console.WriteLine("Ingrese el nombre del nuevo cliente: ");
+            clientes.Add(Console.ReadLine());
+        }
+
+        /* Metodo para listar clientes */
+        public static void listarClientes(bool esperar = true)
+        {
+            Console.Clear();
+
+            /* Listar cliente */
+            Console.WriteLine("Listado de clientes: ");
+            int i = 1;
+
+            foreach (string cliente in clientes)
+            {
+                Console.WriteLine(i + "- " + cliente);
+            }
+
+            if (esperar)
+            {
+                /* Esperar letra para volver atras */
+                Console.WriteLine("Pulse una tecla para volver atras.");
+                Console.ReadKey();
+            }
+        }
+
+        /* Metodo para editar clientes */
+        public static void editarCliente()
+        {
+            Console.Clear();
+
+            //Sentencia if para comprobar si hay clientes
+            if (clientes.Count > 0)
+            {
+
+                listarClientes(false);
+
+                /* Solicitar al usuario el indice del cliente a modificar */
+                Console.WriteLine("Ingrese el indice del cliente: ");
+
+                int cliente = Convert.ToInt32(Console.ReadLine());
+
+                /* Solicitar al usuario el nuevo nombre del cliente*/
+                Console.WriteLine("Ingrese el nuevo nombre del cliente: ");
+
+                clientes[(cliente - 1)] = Console.ReadLine();
+
+            }
+            else 
+            {
+                //Imprimir mensaje si no hay clientes
+                Console.WriteLine("No hay clientes");
+                Console.ReadKey();
+            }
+
+        }
+
+        /* Metodo para borrar clientes */
+        public static void borrarCliente()
+        {
+            Console.Clear();
+
+            //Sentencia if para comprobar si hay clientes
+            if (clientes.Count > 0)
+            {
+
+                listarClientes(false);
+
+                /* Solicitar al usuario el indice del cliente a modificar */
+                Console.WriteLine("Ingrese el indice del cliente: ");
+
+                int cliente = Convert.ToInt32(Console.ReadLine());
+
+                /* Solicitar al usuario el nuevo nombre del cliente*/
+                Console.WriteLine("Ingrese el nuevo nombre del cliente: ");
+
+                clientes[(cliente - 1)] = Console.ReadLine();
+
+            }
+            else
+            {
+                //Imprimir mensaje si no hay clientes
+                Console.WriteLine("No hay clientes");
+                Console.ReadKey();
+            }
+
+        }
+
+
     }
 }
